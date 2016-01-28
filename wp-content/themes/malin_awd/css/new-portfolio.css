@@ -1,0 +1,79 @@
+.row {
+    margin-right: 0;
+}
+.margin-top {
+    margin-top: 2%;
+}
+/* Portfolio */
+
+#project {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 8.5%;
+    padding-bottom: 0px;
+}
+
+#project .isotope .element-item {
+    z-index: 2;
+}
+
+#project .col-lg-3, #project .col-md-6, #project .col-sm-12 {
+    margin: 0;
+    padding: 0.5%;
+}
+
+#project img {
+    width: 100%;
+    height: auto;
+}
+
+#project .project_overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    opacity: 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+#project .project_overlay:hover {
+    opacity: 1;
+    margin: 20px;
+}
+
+#project .project_overlay .project_overlay-text {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    bottom: 35%;
+    left: 20%;
+    right: 20%;
+}
+
+#project .project_overlay .project_overlay-text h1 {
+    color: #fff;
+    text-align: center;
+}
+
+#project .project_overlay .project_overlay-text i {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+#filters {
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+#filters .filter {
+    cursor: pointer;
+    padding: 0px 10px;
+}
