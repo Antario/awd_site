@@ -60,23 +60,24 @@ function custom_script() {
 add_action( 'wp_enqueue_scripts', 'custom_script' );
 ?>
 <?php
-// Register Theme Features
 function theme_features()  {
 
-    // Add theme support for Automatic Feed Links
     show_admin_bar( false );
 }
 add_action( 'init', 'theme_features' );
 ?>
 <?php
-    register_post_type('portfolio_type', [
-      'label'               => __('Portfolio', 'Malin'),
-      'description'         => __('Portfolio', 'Malin'),
+    add_theme_support( 'post-thumbnails' );
+?>
+<?php
+    register_post_type('completed_type', [
+      'label'               => __('Completed projects', 'Malin'),
+      'description'         => __('Completed projects', 'Malin'),
       'labels'              => [
-        'name'                  => _x('Portfolio', 'Post Type General Name', 'Malin'),
-        'singular_name'         => _x('Portfolio', 'Post Type Singular Name', 'Malin'),
-        'menu_name'             => __('Portfolio', 'Malin'),
-        'name_admin_bar'        => __('Portfolio', 'Malin'),
+        'name'                  => _x('Completed projects', 'Post Type General Name', 'Malin'),
+        'singular_name'         => _x('Completed projects', 'Post Type Singular Name', 'Malin'),
+        'menu_name'             => __('Completed projects', 'Malin'),
+        'name_admin_bar'        => __('Completed projects', 'Malin'),
         'archives'              => __('Item Archives', 'Malin'),
         'parent_item_colon'     => __('Parent Item:', 'Malin'),
         'all_items'             => __('All Items', 'Malin'),
@@ -112,20 +113,77 @@ add_action( 'init', 'theme_features' );
         'page-attributes',
         'post-formats',
       ],
-      'hierarchical'        => true,
+      'hierarchical'        => false,
       'public'              => true,
       'show_ui'             => true,
       'show_in_menu'        => true,
       'menu_position'       => 5,
       'menu_icon'           => 'dashicons-businessman',
       'show_in_admin_bar'   => true,
-      'show_in_nav_menus'   => false,
+      'show_in_nav_menus'   => true,
       'can_export'          => true,
       'has_archive'         => true,
       'exclude_from_search' => false,
       'publicly_queryable'  => true,
       'capability_type'     => 'post',
     ]);
-
-    add_theme_support( 'post-thumbnails' );
+?>
+<?php
+    register_post_type('development_type', [
+      'label'               => __('Project in development', 'Malin'),
+      'description'         => __('Project in development', 'Malin'),
+      'labels'              => [
+        'name'                  => _x('Project in development', 'Post Type General Name', 'Malin'),
+        'singular_name'         => _x('Project in development', 'Post Type Singular Name', 'Malin'),
+        'menu_name'             => __('Project in development', 'Malin'),
+        'name_admin_bar'        => __('Project in development', 'Malin'),
+        'archives'              => __('Item Archives', 'Malin'),
+        'parent_item_colon'     => __('Parent Item:', 'Malin'),
+        'all_items'             => __('All Items', 'Malin'),
+        'add_new_item'          => __('Add New Item', 'Malin'),
+        'add_new'               => __('Add New', 'Malin'),
+        'new_item'              => __('New Item', 'Malin'),
+        'edit_item'             => __('Edit Item', 'Malin'),
+        'update_item'           => __('Update Item', 'Malin'),
+        'view_item'             => __('View Item', 'Malin'),
+        'search_items'          => __('Search Item', 'Malin'),
+        'not_found'             => __('Not found', 'Malin'),
+        'not_found_in_trash'    => __('Not found in Trash', 'Malin'),
+        'featured_image'        => __('Featured Image', 'Malin'),
+        'set_featured_image'    => __('Set featured image', 'Malin'),
+        'remove_featured_image' => __('Remove featured image', 'Malin'),
+        'use_featured_image'    => __('Use as featured image', 'Malin'),
+        'insert_into_item'      => __('INSERT INTO item', 'Malin'),
+        'uploaded_to_this_item' => __('Uploaded to this item', 'Malin'),
+        'items_list'            => __('Items list', 'Malin'),
+        'items_list_navigation' => __('Items list navigation', 'Malin'),
+        'filter_items_list'     => __('Filter items list', 'Malin'),
+      ],
+      'supports'            => [
+        'title',
+        'editor',
+        'excerpt',
+        'author',
+        'thumbnail',
+        'comments',
+        'trackbacks',
+        'revisions',
+        'custom-fields',
+        'page-attributes',
+        'post-formats',
+      ],
+      'hierarchical'        => false,
+      'public'              => true,
+      'show_ui'             => true,
+      'show_in_menu'        => true,
+      'menu_position'       => 5,
+      'menu_icon'           => 'dashicons-businessman',
+      'show_in_admin_bar'   => true,
+      'show_in_nav_menus'   => true,
+      'can_export'          => true,
+      'has_archive'         => true,
+      'exclude_from_search' => false,
+      'publicly_queryable'  => true,
+      'capability_type'     => 'post',
+    ]);
 ?>

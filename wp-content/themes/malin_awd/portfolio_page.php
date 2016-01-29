@@ -28,7 +28,7 @@
 		</div>
 		<div class="row margin-top">
 			<div class="col-lg-3 col-md-6 col-sm-12">
-				<a href="http://src-awd.xyz/project_1/">
+				<a href="project-page.html">
 					<div class="project_overlay">
 						<div class="project_overlay-text">
 							<h3>Project One</h3>
@@ -40,7 +40,7 @@
 				<img src="<?php echo get_template_directory_uri() ?>/img/portfolio/work1.jpg" alt="..." />
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12">
-				<a href="">
+				<a href="project-page.html">
 					<div class="project_overlay">
 						<div class="project_overlay-text">
 							<h3>Project Two</h3>
