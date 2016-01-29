@@ -112,11 +112,7 @@ add_action( 'init', 'theme_features' );
         'page-attributes',
         'post-formats',
       ],
-      'taxonomies'          => [
-        'team_cat',
-        'team_working_days',
-      ],
-      'hierarchical'        => false,
+      'hierarchical'        => true,
       'public'              => true,
       'show_ui'             => true,
       'show_in_menu'        => true,
@@ -130,3 +126,6 @@ add_action( 'init', 'theme_features' );
       'publicly_queryable'  => true,
       'capability_type'     => 'post',
     ]);
+
+    add_theme_support( 'post-thumbnails' );
+?>
