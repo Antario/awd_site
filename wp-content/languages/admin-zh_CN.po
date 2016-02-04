@@ -16,79 +16,79 @@ msgstr "感谢您的更新！WordPress %s让您的网站更具连接性且反应
 
 #. translators: 1: WP_Term class name, WP_Comment class name, WP_Network class
 #. name
-#: wp-admin/about.php:177
+#: wp-admin/about.php:189
 msgid "New %1$s, %2$s, and %3$s objects make interacting with terms, comments, and networks more predictable and intuitive in code."
 msgstr "新的%1$s、%2$s和%3$s对象让与项目、评论和网络的交互变得更直观、更可预测。"
 
 #. translators: WP_Comment_Query class name
-#: wp-admin/about.php:170
+#: wp-admin/about.php:182
 msgid "Comment queries now have cache handling to improve performance. New arguments in %s make crafting robust comment queries simpler."
 msgstr "评论查询现在有缓存机制来改善性能。全新%s参数能更轻松地调用、访问评论。"
 
-#: wp-admin/about.php:174
+#: wp-admin/about.php:186
 msgid "Term, comment, and network objects"
 msgstr "项目、评论以及网络对象"
 
-#: wp-admin/about.php:167
+#: wp-admin/about.php:179
 msgid "Comment query improvements"
 msgstr "评论查询改善"
 
 #. translators: WordPress REST API plugin link
-#: wp-admin/about.php:148
+#: wp-admin/about.php:160
 msgid "Infrastructure is the first part of a multi-stage rollout for the REST API. Inclusion of core endpoints is targeted for an upcoming release. To get a sneak peek of the core endpoints, and for more information on extending the REST API, check out the official %s plugin."
 msgstr "技术设施是REST API多阶段推出的第一部分，而将会在未来的发布中包含核心节点。要了解更多关于核心节点或是扩展REST API的信息，请查阅官方%s扩展。"
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:168
 msgid "Term meta"
 msgstr "项目元数据"
 
 #. translators: 1: add_term_meta() docs link, 2: get_term_meta() docs link, 3:
 #. update_term_meta() docs link
-#: wp-admin/about.php:159
+#: wp-admin/about.php:171
 msgid "Terms now support metadata, just like posts. See %1$s, %2$s, and %3$s for more information."
 msgstr "项目现在像文章一样支持元数据。请参阅%1$s、%2$s和%3$s来获得更多信息。"
 
-#: wp-admin/about.php:131
+#: wp-admin/about.php:143
 msgid "Infrastructure for the REST API has been integrated into core, marking a new era in developing with WordPress. The REST API serves to provide developers with a path forward for building and extending RESTful APIs on top of WordPress."
 msgstr "REST API基础设施已整合于WordPress的核心中，将开发模式带入一个崭新的纪元。REST API为开发者提供在WordPress之上建设并扩展RESTful API的道路。"
 
-#: wp-admin/about.php:118
+#: wp-admin/about.php:130
 msgid "In addition to post embeds, WordPress 4.4 also adds support for five new oEmbed providers: Cloudup, Reddit&nbsp;Comments, ReverbNation, Speaker&nbsp;Deck, and VideoPress."
 msgstr "除了文章嵌入外，WordPress 4.4还加入五个新的oEmbed提供者：Cloudup、Reddit留言、ReverbNation、Speaker&nbsp;Deck及VideoPress。"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:141
 msgid "REST API infrastructure"
 msgstr "REST API基础设施"
 
-#: wp-admin/about.php:104
+#: wp-admin/about.php:116
 msgid "Now you can embed your posts on other sites, even other WordPress sites. Simply drop a post URL into the editor and see an instant embed preview, complete with the title, excerpt, and featured image if you&#8217;ve set one. We&#8217;ll even include your site icon and links for comments and sharing."
 msgstr "现在您可以将文章嵌入到其他WordPress网站。只要将文章URL贴入编辑器，即可看到即时嵌入预览，完整的标题、摘要及特色图片（如果您有设定），甚至会包含您的网站图标以及评论与分享链接。"
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:129
 msgid "Even more embed providers"
 msgstr "更多的嵌入提供者"
 
-#: wp-admin/about.php:90
+#: wp-admin/about.php:102
 msgid "WordPress now takes a smarter approach to displaying appropriate image sizes on any device, ensuring a perfect fit every time. You don&#8217;t need to do anything to your theme, it just works."
 msgstr "WordPress现在以更聪明的方式显示适合任何设备的图片尺寸，确保每次皆完美呈现。您甚至不需要修改您的主题，"
 
-#: wp-admin/about.php:103
+#: wp-admin/about.php:115
 msgid "Embed your WordPress content"
 msgstr "嵌入一切"
 
-#: wp-admin/about.php:67
+#: wp-admin/about.php:79
 msgid "Twenty Sixteen was built to look great on any device. A fluid grid design, flexible header, fun color schemes, and more, will make your content shine."
 msgstr "二〇一六在任何设备上都看起来很棒。一个流动式网格设计、灵活页首，搭配各式趣味的配色，让你的内容大放异彩。"
 
-#: wp-admin/about.php:89
+#: wp-admin/about.php:101
 msgid "Responsive images"
 msgstr "自适应图片"
 
-#: wp-admin/about.php:66
+#: wp-admin/about.php:78
 msgid "Our newest default theme, Twenty Sixteen, is a modern take on a classic blog design."
 msgstr "我们最新的默认主题，二〇一六，是一个具现代感又不失经典博客设计风格的主题。"
 
-#: wp-admin/about.php:59
+#: wp-admin/about.php:71
 msgid "Twenty Sixteen"
 msgstr "二〇一六"
 
@@ -107,7 +107,7 @@ msgid "(Currently set to: %s)"
 msgstr "（当前设置为：%s）"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:214
+#: wp-admin/about.php:226
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>版本%s</strong>修正了一个安全问题。"
 
@@ -129,15 +129,15 @@ msgstr "https://cn.gravatar.com/"
 msgid "Profile Picture"
 msgstr "资料图片"
 
-#: wp-admin/about.php:205
+#: wp-admin/about.php:217
 msgid "Maintenance Releases"
 msgstr "维护更新"
 
-#: wp-admin/about.php:208
+#: wp-admin/about.php:220
 msgid "Security Releases"
 msgstr "安全更新"
 
-#: wp-admin/about.php:211
+#: wp-admin/about.php:223
 msgid "Maintenance and Security Releases"
 msgstr "维护和安全更新"
 
@@ -317,7 +317,7 @@ msgstr "在%s目录中的文件会被自动执行。"
 msgid "You are not allowed to manage these items."
 msgstr "您无权管理这些项目。"
 
-#: wp-admin/widgets.php:431
+#: wp-admin/widgets.php:436
 msgid "This will clear all items from the inactive widgets list. You will not be able to restore any customizations."
 msgstr "这会从未启用的小工具列表中清除所有项目，您将无法还原任何自定义选项。"
 
@@ -333,7 +333,7 @@ msgstr "用户列表"
 msgid "One of the selected users is not a member of this site."
 msgstr "选择的用户之一不是该站点的成员。"
 
-#: wp-admin/widgets.php:423
+#: wp-admin/widgets.php:426
 msgid "Clear Inactive Widgets"
 msgstr "清理无效挂件"
 
@@ -969,7 +969,7 @@ msgstr "当前主题不支持上传自定义的头部图像。"
 msgid "You&rsquo;re using the auto-generated password for your account. Would you like to change it?"
 msgstr "您的账户正在使用自动生成的密码。您希望修改它吗？"
 
-#: wp-admin/users.php:360
+#: wp-admin/users.php:361
 msgid "You have specified this user for removal:"
 msgstr "您将要删除这名用户："
 
@@ -1539,16 +1539,16 @@ msgstr "主页"
 msgid "Enter the location on the server where the public and private keys are located. If a passphrase is needed, enter that in the password field above."
 msgstr "输入服务器上公钥和私钥的位置。如需要密码，请在上方的密码框输入。"
 
-#: wp-admin/users.php:419
+#: wp-admin/users.php:420
 msgid "%s user deleted."
 msgid_plural "%s users deleted."
 msgstr[0] "已删除%d个用户。"
 
-#: wp-admin/users.php:266
+#: wp-admin/users.php:267
 msgid "What should be done with content owned by these users?"
 msgstr "如何处理这些用户名下的内容？"
 
-#: wp-admin/users.php:241
+#: wp-admin/users.php:242
 msgid "You have specified these users for deletion:"
 msgstr "您已指定删除下列用户："
 
@@ -1955,7 +1955,7 @@ msgstr "您只有在此处登入。"
 msgid "Log Out Everywhere"
 msgstr "登出所有设备"
 
-#: wp-admin/about.php:65
+#: wp-admin/about.php:77
 msgid "Introducing Twenty Sixteen"
 msgstr "介绍二〇一六"
 
@@ -2439,15 +2439,15 @@ msgstr "点击“移除”可以将用户从您的站点删除。该操作不会
 msgid "Delete brings you to the Delete Users screen for confirmation, where you can permanently remove a user from your site and delete their content. You can also delete multiple users at once by using Bulk Actions."
 msgstr "“删除”链接会带您到“删除用户”确认页面。在确认页面，您可以永久从站点中删除用户，并决定是否保留他们的内容。您也可以通过“批量操作”一次删除多个用户。"
 
-#: wp-admin/includes/ms.php:1055 wp-admin/users.php:270
+#: wp-admin/includes/ms.php:1055 wp-admin/users.php:271
 msgid "Delete all content."
 msgstr "删除所有内容。"
 
-#: wp-admin/includes/ms.php:1057 wp-admin/users.php:272
+#: wp-admin/includes/ms.php:1057 wp-admin/users.php:273
 msgid "Attribute all content to:"
 msgstr "将这些内容的作者修改为："
 
-#: wp-admin/users.php:264
+#: wp-admin/users.php:265
 msgid "What should be done with content owned by this user?"
 msgstr "如何处理该用户名下的内容？"
 
@@ -2749,7 +2749,7 @@ msgstr "显示前一主题"
 msgid "Show next theme"
 msgstr "显示下一主题"
 
-#: wp-admin/widgets.php:498
+#: wp-admin/widgets.php:504
 msgid "Add Widget"
 msgstr "添加小工具"
 
@@ -3752,23 +3752,23 @@ msgstr "在<strong>回应给</strong>一栏中，有三种元素。文字为引�
 msgid "Used: %1$s%% of %2$s"
 msgstr "已用：%2$s中的%1$s%%"
 
-#: wp-admin/users.php:250
+#: wp-admin/users.php:251
 msgid "ID #%1$s: %2$s <strong>The current user will not be deleted.</strong>"
 msgstr "ID #%1$s：%2$s<strong>当前用户不会被删除</strong>。"
 
-#: wp-admin/users.php:252 wp-admin/users.php:376
+#: wp-admin/users.php:253 wp-admin/users.php:377
 msgid "ID #%1$s: %2$s"
 msgstr "ID #%1$s：%2$s"
 
-#: wp-admin/users.php:372
+#: wp-admin/users.php:373
 msgid "ID #%1$s: %2$s <strong>The current user will not be removed.</strong>"
 msgstr "ID #%1$s：%2$s<strong>这位用户不会被移除。</strong>"
 
-#: wp-admin/users.php:374
+#: wp-admin/users.php:375
 msgid "ID #%1$s: %2$s <strong>You don't have permission to remove this user.</strong>"
 msgstr "ID #%1$s：%2$s<strong>您无权删除此用户。</strong>"
 
-#: wp-admin/users.php:234
+#: wp-admin/users.php:235
 msgid "Please select an option."
 msgstr "请选择一个选项。"
 
@@ -4150,11 +4150,11 @@ msgstr "您的<code>wp-config.php</code>指定了空的数据表前缀。WordPre
 msgid "Revert to the <strong>Browser Uploader</strong> by clicking the link below the drag and drop box."
 msgstr "点击拖拽框下方的链接可恢复使用<strong>浏览器上传工具</strong>。"
 
-#: wp-admin/users.php:425
+#: wp-admin/users.php:426
 msgid "New user created. <a href=\"%s\">Edit user</a>"
 msgstr "新用户已创建。<a href=\"%s\">编辑用户</a>"
 
-#: wp-admin/users.php:417
+#: wp-admin/users.php:418
 msgid "User deleted."
 msgstr "用户已删除。"
 
@@ -4912,27 +4912,27 @@ msgid "Show Toolbar when viewing site"
 msgstr "在浏览站点时显示工具栏"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:219
+#: wp-admin/about.php:231
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修复了 %2$s 个问题。"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:223
+#: wp-admin/about.php:235
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:227
+#: wp-admin/about.php:53 wp-admin/about.php:57 wp-admin/about.php:239
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:231
+#: wp-admin/about.php:55 wp-admin/about.php:59 wp-admin/about.php:243
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
 
@@ -4944,20 +4944,21 @@ msgstr "欢迎访问WordPress仪表盘！在您每次登录站点后，您都会
 msgid "What&#8217;s New"
 msgstr "更新内容"
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:216
 msgid "Maintenance Release"
 msgstr "维护更新"
 
-#: wp-admin/about.php:207
+#: wp-admin/about.php:219
 msgid "Security Release"
 msgstr "安全更新"
 
-#: wp-admin/about.php:210
+#: wp-admin/about.php:52 wp-admin/about.php:222
 msgid "Maintenance and Security Release"
-msgstr "维护和安全更新"
+msgid_plural "Maintenance and Security Releases"
+msgstr[0] "维护和安全更新"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:216
+#: wp-admin/about.php:228
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>版本%s</strong>修正了一些安全问题。"
 
@@ -4965,7 +4966,7 @@ msgstr "<strong>版本%s</strong>修正了一些安全问题。"
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "这个画面可以让您选择您的永久链接结构。您可以选择常见的设置或建立自定义URL结构。"
 
-#: wp-admin/about.php:189
+#: wp-admin/about.php:201
 msgid "Return to Updates"
 msgstr "返回“更新”"
 
@@ -5257,11 +5258,11 @@ msgstr "您使用的插件或主题为了使用add_meta_box()似乎直接包含�
 msgid "Welcome to WordPress %s"
 msgstr "欢迎使用WordPress %s"
 
-#: wp-admin/about.php:189
+#: wp-admin/about.php:201
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "返回“仪表盘” &rarr; “更新”"
 
-#: wp-admin/about.php:192
+#: wp-admin/about.php:204
 msgid "Go to Dashboard &rarr; Home"
 msgstr "前往“仪表盘” &rarr; “首页”"
 
@@ -5273,7 +5274,7 @@ msgstr "WordPress是由全球各地的爱好者共同创造的。"
 msgid "Core Developers"
 msgstr "核心开发者"
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:137
 msgid "Under the Hood"
 msgstr "引擎盖下"
 
@@ -5484,7 +5485,7 @@ msgstr "注意："
 #. translators: %s: search keywords
 #: wp-admin/edit-comments.php:197 wp-admin/edit-tags.php:311
 #: wp-admin/edit.php:307 wp-admin/link-manager.php:78 wp-admin/plugins.php:515
-#: wp-admin/upload.php:224 wp-admin/users.php:480
+#: wp-admin/upload.php:224 wp-admin/users.php:481
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "搜索“%s”的结果"
 
@@ -5552,7 +5553,7 @@ msgid "Role"
 msgstr "角色"
 
 #: wp-admin/includes/dashboard.php:406 wp-admin/includes/dashboard.php:408
-#: wp-admin/users.php:487
+#: wp-admin/users.php:488
 msgid "Search Users"
 msgstr "搜索用户"
 
@@ -5577,7 +5578,7 @@ msgid "All Users"
 msgstr "所有用户"
 
 #: wp-admin/menu.php:220 wp-admin/menu.php:222 wp-admin/user-edit.php:194
-#: wp-admin/users.php:474
+#: wp-admin/users.php:475
 msgctxt "user"
 msgid "Add New"
 msgstr "添加用户"
@@ -5614,20 +5615,20 @@ msgstr "用户已添加。"
 msgid "Add Existing User"
 msgstr "添加现有用户"
 
-#: wp-admin/includes/ms.php:1085 wp-admin/users.php:286
+#: wp-admin/includes/ms.php:1085 wp-admin/users.php:287
 msgid "Confirm Deletion"
 msgstr "确认删除"
 
-#: wp-admin/users.php:300 wp-admin/users.php:308 wp-admin/users.php:335
-#: wp-admin/users.php:343
+#: wp-admin/users.php:301 wp-admin/users.php:309 wp-admin/users.php:336
+#: wp-admin/users.php:344
 msgid "You can&#8217;t remove users."
 msgstr "您无法删除用户。"
 
-#: wp-admin/users.php:433
+#: wp-admin/users.php:434
 msgid "Changed roles."
 msgstr "角色已改变。"
 
-#: wp-admin/users.php:444
+#: wp-admin/users.php:445
 msgid "User removed from this site."
 msgstr "用户已从本站点删除。"
 
@@ -5945,7 +5946,7 @@ msgstr "<strong>随机：</strong>在每个页面上显示不同的图像。"
 msgid "Layout"
 msgstr "布局"
 
-#: wp-admin/users.php:239
+#: wp-admin/users.php:240
 msgid "You have specified this user for deletion:"
 msgstr "您已指定删除此用户："
 
@@ -5970,7 +5971,7 @@ msgstr "您不能删除主站点正在使用的插件。"
 msgid "This plugin may be active on other sites in the network."
 msgstr "这个插件可能已在网络的其它站点中启用了。"
 
-#: wp-admin/user-edit.php:196 wp-admin/users.php:476
+#: wp-admin/user-edit.php:196 wp-admin/users.php:477
 msgctxt "user"
 msgid "Add Existing"
 msgstr "添加现有用户"
@@ -6575,7 +6576,7 @@ msgid "Home: %s"
 msgstr "首页：%s"
 
 #: wp-admin/import.php:57 wp-admin/includes/network.php:105
-#: wp-admin/includes/network.php:122 wp-admin/users.php:234
+#: wp-admin/includes/network.php:122 wp-admin/users.php:235
 msgid "ERROR:"
 msgstr "错误："
 
@@ -6944,7 +6945,7 @@ msgstr "这将恢复原始背景图像。您将无法还原任何自定义元素
 msgid "WordPress Blog"
 msgstr "WordPress China博客"
 
-#: wp-admin/users.php:357
+#: wp-admin/users.php:358
 msgid "Remove Users from Site"
 msgstr "从站点删除用户"
 
@@ -7084,11 +7085,11 @@ msgstr "显示选项"
 msgid "Remove Image"
 msgstr "移除图像"
 
-#: wp-admin/users.php:384
+#: wp-admin/users.php:385
 msgid "Confirm Removal"
 msgstr "确认删除"
 
-#: wp-admin/users.php:447
+#: wp-admin/users.php:448
 msgid "You can't remove the current user."
 msgstr "您无法删除当前用户。"
 
@@ -7096,11 +7097,11 @@ msgstr "您无法删除当前用户。"
 msgid "User deletion is not allowed from this screen."
 msgstr "不能在本页面删除用户。"
 
-#: wp-admin/users.php:362
+#: wp-admin/users.php:363
 msgid "You have specified these users for removal:"
 msgstr "您要删除的用户："
 
-#: wp-admin/users.php:448
+#: wp-admin/users.php:449
 msgid "Other users have been removed."
 msgstr "其它用户已被删除。"
 
@@ -7108,7 +7109,7 @@ msgstr "其它用户已被删除。"
 msgid "You can&#8217;t delete that user."
 msgstr "您不能删除此用户。"
 
-#: wp-admin/users.php:386
+#: wp-admin/users.php:387
 msgid "There are no valid users selected for removal."
 msgstr "选取时没有选取可删除的用户。"
 
@@ -7415,7 +7416,7 @@ msgstr "查看所有"
 msgid "Please enter a valid menu name."
 msgstr "请输入有效的菜单名称。"
 
-#: wp-admin/about.php:192
+#: wp-admin/about.php:204
 msgid "Go to Dashboard"
 msgstr "前往“仪表盘”"
 
@@ -7793,11 +7794,11 @@ msgstr "新密码"
 msgid "Update User"
 msgstr "更新用户"
 
-#: wp-admin/users.php:231
+#: wp-admin/users.php:232
 msgid "Delete Users"
 msgstr "删除用户"
 
-#: wp-admin/users.php:440
+#: wp-admin/users.php:441
 msgid "You can&#8217;t delete the current user."
 msgstr "您无法删除当前用户。"
 
@@ -7865,7 +7866,7 @@ msgstr "正在安装主题：%s"
 msgid "[%s] Joining confirmation"
 msgstr "[%s] 加入确认"
 
-#: wp-admin/users.php:429
+#: wp-admin/users.php:430
 msgid "New user created."
 msgstr "新用户已创建。"
 
@@ -7963,7 +7964,7 @@ msgstr "您无法编辑此用户。"
 msgid "You can&#8217;t delete users."
 msgstr "您无法删除用户。"
 
-#: wp-admin/users.php:436
+#: wp-admin/users.php:437
 msgid "The current user&#8217;s role must have user editing capabilities."
 msgstr "当前用户角色必须有用户编辑权。"
 
@@ -8506,15 +8507,15 @@ msgstr "已向新用户发送邀请函。受邀者须先点击邮件中的确认
 msgid "Skip Confirmation Email"
 msgstr "跳过邮件确认"
 
-#: wp-admin/users.php:288
+#: wp-admin/users.php:289
 msgid "There are no valid users selected for deletion."
 msgstr "没有可供删除的有效用户。"
 
-#: wp-admin/users.php:437
+#: wp-admin/users.php:438
 msgid "Other user roles have been changed."
 msgstr "其他用户的角色已更改。"
 
-#: wp-admin/users.php:441
+#: wp-admin/users.php:442
 msgid "Other users have been deleted."
 msgstr "其它用户已被删除。"
 

@@ -58,13 +58,13 @@ Template Name: About Template
 
     <div class="col-xs-12 col-sm-6 col-lg-6">
 
-      <a href="../malin_awd/img/gallery-1.jpg" title="My Caption 1" class="swipebox">
+      <a title="My Caption 1" class="swipebox">
 
         <div class="large-square">
 
           <div class="hover-info">
-            <h4>Our new product</h4>
-            <span class="date-info">14.05.2016</span>
+            <h4>Кириченко Андрій</h4>
+            <span class="date-info">Director</span>
           </div>
 
         </div>
@@ -77,13 +77,13 @@ Template Name: About Template
 
       <div class="col-xs-12 col-sm-6 col-lg-6">
 
-        <a href="../malin_awd/img/gallery-2.jpg" title="My Caption 2" class="swipebox">
+        <a title="My Caption 2" class="swipebox">
 
           <div class="small-square">
 
             <div class="hover-info">
-              <h4>Brand new design</h4>
-              <span class="date-info">14.05.2016</span>
+              <h4>Когут Володимир</h4>
+              <span class="date-info">Search Engine Optimization</span>
             </div>
 
           </div>
@@ -94,13 +94,13 @@ Template Name: About Template
 
       <div class="col-xs-12 col-sm-6 col-lg-6">
 
-        <a href="../malin_awd/img/gallery-3.jpg" title="My Caption 3" class="swipebox">
+        <a title="My Caption 3" class="swipebox">
 
           <div class="small-square second">
 
             <div class="hover-info">
-              <h4>Beauty and simplicity</h4>
-              <span class="date-info">14.05.2016</span>
+              <h4>Мицак Дмитро</h4>
+              <span class="date-info">Backend developer</span>
             </div>
 
           </div>
@@ -111,13 +111,13 @@ Template Name: About Template
 
       <div class="col-xs-12 col-sm-6 col-lg-6">
 
-        <a href="../malin_awd/img/gallery-4.jpg" title="My Caption 4" class="swipebox">
+        <a title="My Caption 4" class="swipebox">
 
           <div class="small-square third">
 
             <div class="hover-info">
-              <h4>Amazing land</h4>
-              <span class="date-info">14.05.2016</span>
+              <h4>Соколик Василь</h4>
+              <span class="date-info">Frontend developer</span>
             </div>
 
           </div>
@@ -128,13 +128,13 @@ Template Name: About Template
 
       <div class="col-xs-12 col-sm-6 col-lg-6">
 
-        <a href="../malin_awd/img/gallery-5.jpg" title="My Caption 5" class="swipebox">
+        <a title="My Caption 5" class="swipebox">
 
           <div class="small-square fourth">
 
             <div class="hover-info">
-              <h4>What time is it?</h4>
-              <span class="date-info">14.05.2016</span>
+              <h4>Романів Ольга</h4>
+              <span class="date-info">Desinger</span>
             </div>
 
           </div>

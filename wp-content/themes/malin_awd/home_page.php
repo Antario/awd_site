@@ -29,9 +29,9 @@
 
 			<div class="cd-words-wrapper">
 
-				<b class="is-visible">COMING&nbsp;SOON!</b> <!-- use the code &nbsp; to add a space between 2 words -->
-				<b>MAGICIANS</b>
+				<b class="is-visible">MAGICIANS</b>
 				<b>RESPONSIVE</b>
+				<b>AWD&nbsp;Development!</b> <!-- use the code &nbsp; to add a space between 2 words -->
 
 			</div>
 

@@ -16,15 +16,15 @@
     <title><?php bloginfo('name'); ?></title>
     <!-- ================= Favicon ================== -->
     <!-- Standard -->
-    <link rel="shortcut icon" href="http://src-awd.xyz/wp-content/uploads/2016/01/favicon.png">
+    <link rel="shortcut icon" href="http://awd-development.com.ua/wp-content/uploads/2016/01/favicon.png">
     <!-- Retina iPad Touch Icon-->
-    <link rel="apple-touch-icon" sizes="144x144" href="http://src-awd.xyz/wp-content/uploads/2016/01/favicon-retina-ipad.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://awd-development.com/wp-content/uploads/2016/01/favicon-retina-ipad.png">
     <!-- Retina iPhone Touch Icon-->
-    <link rel="apple-touch-icon" sizes="114x114" href="http://src-awd.xyz/wp-content/uploads/2016/01/favicon-retina-iphone.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://awd-development.com/wp-content/uploads/2016/01/favicon-retina-iphone.png">
     <!-- Standard iPad Touch Icon-->
-    <link rel="apple-touch-icon" sizes="72x72" href="http://src-awd.xyz/wp-content/uploads/2016/01/favicon-standard-ipad.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://awd-development.com/wp-content/uploads/2016/01/favicon-standard-ipad.png">
     <!-- Standard iPhone Touch Icon-->
-    <link rel="apple-touch-icon" sizes="57x57" href="http://src-awd.xyz/wp-content/uploads/2016/01/favicon-standard-iphone.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="http://awd-development.com/wp-content/uploads/2016/01/favicon-standard-iphone.png">
 
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php if ( is_singular() && pings_open(get_queried_object() ) ) : ?>
@@ -46,28 +46,28 @@
         <ul class="main-navigation">
 
             <li>
-                <a class="nav-link-close" href="http://src-awd.xyz/">
+                <a class="nav-link-close" href="http://awd-development.com/">
                     <i class="icon ion-ios-home-outline"></i>
                     Home
                 </a>
             </li>
 
             <li>
-                <a class="nav-link about-content" href="http://src-awd.xyz/about/">
+                <a class="nav-link about-content" href="http://awd-development.com/about">
                     <i class="icon ion-ios-people-outline"></i>
                     About
                 </a>
             </li>
 
             <li>
-                <a class="nav-link services-content" href="http://src-awd.xyz/portfolio/">
+                <a class="nav-link services-content" href="http://awd-development.com/portfolio">
                     <i class="icon ion-ios-world-outline"></i>
                     Portfolio
                 </a>
             </li>
 
             <li>
-                <a class="nav-link contact-content" href="http://src-awd.xyz/contact/">
+                <a class="nav-link contact-content" href="http://awd-development.com/contact">
                     <i class="icon ion-ios-chatbubble-outline"></i>
                     Contact
                 </a>
