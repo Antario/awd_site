@@ -24,18 +24,17 @@
 		<!-- Your logo -->
 		<img src="<?php echo get_template_directory_uri(); ?>/img/awd12_1.png" alt="" class="brand-logo"/>
 
-		<h1 class="cd-headline letters rotate-2">
-			WE ARE
-
-			<div class="cd-words-wrapper">
-
-				<b class="is-visible">MAGICIANS</b>
-				<b>RESPONSIVE</b>
-				<b>AWD&nbsp;Development!</b> <!-- use the code &nbsp; to add a space between 2 words -->
-
-			</div>
-
-		</h1>
+<!--		<h1 class="cd-headline letters rotate-2">-->
+<!--			Ми-->
+<!---->
+<!--			<div class="cd-words-wrapper">-->
+<!--				<b class="is-visible">Професійні</b>-->
+<!--				<b>Відповідальні</b>-->
+<!--				<b>AWD&nbsp;Development!</b> <!-- use the code &nbsp; to add a space between 2 words -->-->
+<!---->
+<!--			</div>-->
+<!---->
+<!--		</h1>-->
 
 		<p>Made for awesome people </p>
 

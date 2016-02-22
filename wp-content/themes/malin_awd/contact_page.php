@@ -1,7 +1,7 @@
 <?php
 /*
 *Template Name: Contact Template
-*/ 
+*/
 ?>
 <?php get_header(); ?>
 	<section id="home-part" class="scale-max">
@@ -14,7 +14,7 @@
 
 		<div class="inner-content" id="contact-content">
 
-			<h2>Get in touch!</h2>
+			<h2>Зв'язатися з нами</h2>
 			<div class="separator"></div>
 
 			<div class="row">
@@ -23,33 +23,33 @@
 
 					<div class="contact-item">
 
-						<h6><i class="icon ion-ios-location"></i> Main address</h6>
+						<h6><i class="icon ion-ios-location"></i> Адреса</h6>
 
 						<p>
-							<a href="https://goo.gl/maps/2eF6Z" target="_blank"><strong>66 Grand Central,</strong><br>
-								<strong>New York, USA</strong></a>
+							<a href="https://goo.gl/maps/2eF6Z" target="_blank"><strong>вул. Симоненка 31,</strong><br>
+								<strong>Івано-Франківськ, Україна</strong></a>
 						</p>
 
 					</div>
 
 					<div class="contact-item">
 
-						<h6><i class="icon ion-ios-telephone"></i> Call us</h6>
+						<h6><i class="icon ion-ios-telephone"></i> Телефони</h6>
 
 						<p>
-							<strong><a href="tel:+661254611">(+33) 66-1254-611</a></strong><br>
-							<strong><a href="tel:+665628146">(+37) 66-5628-146</a></strong>
+							<strong><a href="tel:+661254611">+38(096) 46-93-461</a></strong><br>
+							<strong><a href="tel:+665628146">+38(066) 47-36-171</a></strong>
 						</p>
 
 					</div>
 
 					<div class="contact-item">
 
-						<h6><i class="icon ion-paper-airplane"></i> Write us</h6>
+						<h6><i class="icon ion-paper-airplane"></i> Електронна пошта</h6>
 
 						<p>
-							<strong><a href="mailto:moet@exemple.com">malin@marketing.com</a></strong><br>
-							<strong><a href="mailto:moet@exemple.com">malin@customer.com</a></strong>
+							<strong><a href="mailto:moet@exemple.com">development.awd@gmail.com</a></strong><br>
+							<strong><a href="mailto:moet@exemple.com">awddevelopment@yahoo.com</a></strong>
 						</p>
 
 					</div>
@@ -66,35 +66,35 @@
 							<!-- Full name -->
 							<div class="col-xs-12 col-sm-6 col-lg-6">
 								<div class="form-group">
-									<input type="text" id="name" class="form form-control" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" name="name" data-name="Name" required>
+									<input type="text" id="name" class="form form-control" placeholder="Ваше імя" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ваше імя'" name="name" data-name="Name" required>
 								</div>
 							</div>
 
 							<!-- E-mail -->
 							<div class="col-xs-12 col-sm-6 col-lg-6">
 								<div class="form-group">
-									<input type="email" id="email" class="form form-control" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'" name="email-address" data-name="Email Address" required>
+									<input type="email" id="email" class="form form-control" placeholder="Ваш Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ваш Email'" name="email-address" data-name="Email Address" required>
 								</div>
 							</div>
 
 							<!-- Subject -->
 							<div class="col-xs-12 col-sm-12 col-lg-12">
 								<div class="form-group">
-									<input type="text" id="subject" class="form form-control" placeholder="Write the subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Write the subject'" name="subject" data-name="Subject">
+									<input type="text" id="subject" class="form form-control" placeholder="Тема" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Тема'" name="subject" data-name="Subject">
 								</div>
 							</div>
 
 							<!-- Message -->
 							<div class="col-xs-12 col-sm-12 col-lg-12 no-padding">
 								<div class="form-group">
-									<textarea id="text-area" class="form textarea form-control" placeholder="Your message here... 20 characters Min." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message here... 20 characters Min.'" name="message" data-name="Text Area" required></textarea>
+									<textarea id="text-area" class="form textarea form-control" placeholder="Введіть ваше повідомлення... мінімум 20 символів." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Введіть ваше повідомлення... мінімум 20 символів.'" name="message" data-name="Text Area" required></textarea>
 								</div>
 							</div>
 
 						</div>
 
 						<!-- Button submit -->
-						<button type="submit" id="valid-form" class="btn btn-color">Send my Message</button>
+						<button type="submit" id="valid-form" class="btn btn-color">Відправити повідомлення</button>
 
 					</form>
 					<!-- /. Contact form -->

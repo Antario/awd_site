@@ -31,6 +31,12 @@
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php endif; ?>
     <!-- ============== Resources style ============== -->
+    <style>
+        @font-face {
+            font-family: D3Euronism; /* Гарнитура шрифта */
+            src: url(fonts/D3Euronism_i.ttf); /* Путь к файлу со шрифтом */
+        }
+    </style>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,600,700|PT+Sans:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <?php wp_head(); ?>
@@ -48,35 +54,35 @@
             <li>
                 <a class="nav-link-close" href="http://awd-development.com/">
                     <i class="icon ion-ios-home-outline"></i>
-                    Home
+                    Головна
                 </a>
             </li>
 
             <li>
                 <a class="nav-link about-content" href="http://awd-development.com/about">
                     <i class="icon ion-ios-people-outline"></i>
-                    About
+                    Про нас
                 </a>
             </li>
 
             <li>
                 <a class="nav-link services-content" href="http://awd-development.com/portfolio">
-                    <i class="icon ion-ios-world-outline"></i>
-                    Portfolio
+                    <i class="ion-ios-camera-outline"></i>
+                    Портфоліо
                 </a>
             </li>
 
             <li>
                 <a class="nav-link contact-content" href="http://awd-development.com/contact">
                     <i class="icon ion-ios-chatbubble-outline"></i>
-                    Contact
+                    Контакти
                 </a>
             </li>
 
             <li class="newsletter-color">
                 <a class="open-newsletter">
                     <i class="icon ion-ios-bell-outline"></i>
-                    Newsletter
+                    Новини
                 </a>
             </li>
 
@@ -85,14 +91,14 @@
         <ul class="bottom-nav">
 
             <li class="twitter-color">
-                <a href="#" title="">
-                    <i class="icon ion-social-twitter-outline"></i>
-                    Twitter
+                <a href="https://vk.com/awd_development" title="" target="_blank">
+                    <i class="ion-social-vimeo-outline"></i>
+                    VK
                 </a>
             </li>
 
             <li class="facebook-color">
-                <a href="#" title="">
+                <a href="https://www.facebook.com/groups/1691436421071921/" title="" target="_blank">
                     <i class="icon ion-social-facebook-outline"></i>
                     Facebook
                 </a>

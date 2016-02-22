@@ -16,10 +16,10 @@
             ]
 </script>
 <!-- Language selection -->
-<p class="lang">
-	<a href="" class="active">EN</a><span> | </span>
-	<a href="">UA</a>
-</p>
+<!--<p class="lang">-->
+<!--	<a href="" class="active">EN</a><span> | </span>-->
+<!--	<a href="">UA</a>-->
+<!--</p>-->
 
 <!-- Copyright -->
 <p class="copyright">©AWD Development 2016</p>

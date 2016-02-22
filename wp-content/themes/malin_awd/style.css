@@ -200,7 +200,7 @@ h2 {
 h3 {
   font-size: 30px;
   font-weight: 700;
-  color: #323a45;
+  color: #ffffff;
   margin-bottom: 25px;
 }
 
@@ -857,7 +857,7 @@ p.lang a.active {
 }
 
 .brand-logo {
-  max-width: 200px;
+  max-width: 400px;
   display: block;
   margin: auto;
   margin-bottom: 10px;
@@ -1526,7 +1526,7 @@ p.lang a.active {
 }
 #contact-content .contact-item p {
   color: #BABABA !important;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 #contact-form {
