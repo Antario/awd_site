@@ -1,7 +1,7 @@
 <?php
 /*
 *Template Name: News Template
-*/ 
+*/
 ?>
 <?php get_header(); ?>
 	<section id="home-part" class="scale-max">
