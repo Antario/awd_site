@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-09 06:53:29+0000\n"
+"PO-Revision-Date: 2016-02-24 00:12:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7412,10 +7412,6 @@ msgstr "올바른 메뉴명을 입력해주세요."
 msgid "This timezone does not observe daylight saving time."
 msgstr "이 시간대는 일광 절약 시간제를 사용하지 않습니다."
 
-#: wp-admin/options-general.php:171
-msgid "This timezone is currently in daylight saving time."
-msgstr "이 시간대는 현재 일광 절약 시간제 입니다."
-
 #: wp-admin/includes/nav-menu.php:387 wp-admin/includes/nav-menu.php:661
 msgid "View All"
 msgstr "모두 보기"
@@ -7449,6 +7445,10 @@ msgstr "이 주소는 관리 목적으로 사용됩니다. 만약 이것을 변�
 #: wp-admin/plugins.php:310
 msgid "You are about to remove the following plugin:"
 msgstr "다음 플러그인을 삭제하려고 합니다:"
+
+#: wp-admin/options-general.php:171
+msgid "This timezone is currently in daylight saving time."
+msgstr "이 시간대는 현재 일광 절약 시간제입니다."
 
 #: wp-admin/includes/plugin.php:408
 msgid "Advanced caching plugin."
@@ -7689,10 +7689,6 @@ msgstr "시간대"
 #: wp-admin/options-general.php:150
 msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is %s"
 msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> 현재 시각은 <code>%s</code>입니다."
-
-#: wp-admin/options-general.php:287
-msgid "Week Starts On"
-msgstr "시작요일"
 
 #: wp-admin/options-media.php:15
 msgid "Media Settings"
@@ -8439,10 +8435,6 @@ msgstr "이 타언어 버전은 번역된 언어와 그 국적에 맞게 고쳐�
 msgid "This plugin has been deactivated because your changes resulted in a <strong>fatal error</strong>."
 msgstr "수정 결과 <strong>심각한 에러<strong>가 발생해서 이 플러그인이 비활성화되었습니다."
 
-#: wp-admin/options-general.php:173
-msgid "This timezone is currently in standard time."
-msgstr "이 시간대는 현재 표준 시간제 입니다."
-
 #: wp-admin/includes/theme.php:245
 msgid "Threaded Comments"
 msgstr "쓰레드 댓글"
@@ -8901,6 +8893,14 @@ msgstr "플러그인 %1$s는 에러로 인해 <strong>비활성화</strong>되�
 #: wp-admin/options-writing.php:117
 msgid "To post to WordPress by email you must set up a secret email account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
 msgstr "이메일을 이용해서 워드프레스에 글을 쓰려면 POP3 접근이 가능한 비밀 이메일 계정이 필요합니다. 이 주소로 보내진 메일은 바로 글로 저장되므로 이 주소를 다른 사람이 모르게 하는 것이 좋습니다. 워드프레스가 아무렇게 만든 3가지 글귀를 써도 됩니다: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
+
+#: wp-admin/options-general.php:287
+msgid "Week Starts On"
+msgstr "시작 요일"
+
+#: wp-admin/options-general.php:173
+msgid "This timezone is currently in standard time."
+msgstr "이 시간대는 현재 표준 시간제입니다."
 
 #: wp-admin/custom-background.php:275 wp-admin/custom-header.php:545
 #: wp-admin/includes/class-wp-theme-install-list-table.php:63

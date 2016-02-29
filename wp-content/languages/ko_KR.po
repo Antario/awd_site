@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (4.4.x) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-09 07:35:25+0000\n"
+"PO-Revision-Date: 2016-02-24 00:09:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3702,6 +3702,14 @@ msgstr "미디어 라이브러리"
 msgid "Create Gallery"
 msgstr "갤러리 생성하기"
 
+#: wp-includes/ms-functions.php:1332
+msgid "Already Installed"
+msgstr "이미 설치됐습니다"
+
+#: wp-includes/ms-functions.php:1332
+msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
+msgstr "워드프레스를 이미 설치한 것 같습니다. 재설치 하려면 이전의 데이터베이스 테이블을 먼저 삭제하세요."
+
 #: wp-includes/ms-functions.php:908
 msgid ""
 "To activate your user, please click the following link:\n"
@@ -3710,19 +3718,11 @@ msgid ""
 "\n"
 "After you activate, you will receive *another email* with your login."
 msgstr ""
-"사용자를 활성화 하려면 아래의 링크를 클릭하세요:\n"
+"사용자를 활성화하려면 아래의 링크를 클릭하세요:\n"
 "\n"
 "%s\n"
 "\n"
 "활성화 후에는 로그인 링크가 있는 이메일을 하나 더 받게 됩니다."
-
-#: wp-includes/ms-functions.php:1332
-msgid "Already Installed"
-msgstr "이미 설치됐습니다"
-
-#: wp-includes/ms-functions.php:1332
-msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
-msgstr "워드프레스를 이미 설치한 것 같습니다. 재설치 하려면 이전의 데이터베이스 테이블을 먼저 삭제하세요."
 
 #: wp-includes/ms-functions.php:1180
 msgid ""
@@ -4660,7 +4660,7 @@ msgstr "파일 스트리밍을 위한 대상 디렉터리가 존재하지 않거
 
 #: wp-includes/class-http.php:361
 msgid "There are no HTTP transports available which can complete the requested request."
-msgstr "사용가능한 HTTP 전송이 없어서 요청한 요구를 완료할 수 없습니다."
+msgstr "사용 가능한 HTTP 전송이 없어서 요청한 요구를 완료할 수 없습니다."
 
 #: wp-includes/taxonomy.php:123 wp-includes/taxonomy.php:124
 msgctxt "post format"
@@ -7830,13 +7830,6 @@ msgstr "알 수 없는 피드"
 msgid "Sidebar"
 msgstr "사이드바"
 
-#: wp-includes/general-template.php:1385
-#: wp-includes/theme-compat/sidebar.php:92
-#: wp-includes/widgets/class-wp-widget-archives.php:27
-#: wp-includes/widgets/class-wp-widget-archives.php:45
-msgid "Archives"
-msgstr "글목록"
-
 #: wp-includes/general-template.php:411 wp-login.php:716 wp-login.php:882
 msgid "Username"
 msgstr "사용자명"
@@ -8126,6 +8119,13 @@ msgstr "&#8220;%s&#8221;에 대한 검색 결과"
 #: wp-includes/pluggable.php:1765
 msgid "Email: %s"
 msgstr "이메일: %s"
+
+#: wp-includes/general-template.php:1385
+#: wp-includes/theme-compat/sidebar.php:92
+#: wp-includes/widgets/class-wp-widget-archives.php:27
+#: wp-includes/widgets/class-wp-widget-archives.php:45
+msgid "Archives"
+msgstr "글 목록"
 
 #: wp-activate.php:81
 msgid "Activate"

@@ -11,6 +11,9 @@
 </section>
 
 	<section id="project">
+		<div class="col-xs-12 col-sm-12 col-lg-12">
+		<?php echo do_shortcode("[huge_it_portfolio id='1']"); ?>
+			</div>
 <!--		<div class="row">-->
 <!--			--><?php //if ( have_posts() ) : ?>
 <!--				--><?php //while ( have_posts() ) : the_post(); ?>
@@ -35,69 +38,69 @@
 <!--				<hr>-->
 <!--			</div>-->
 <!--		</div>-->
-		<div class="row margin-top">
-			<div class="col-lg-3 col-md-6 col-sm-12">
-				<a href="http://medhouse-mc.com" target="_blank">
-					<div class="project_overlay">
-						<div class="project_overlay-text">
-							<h3>Medhouse</h3>
-							<hr>
-							<i>приватна клініка</i>
-						</div>
-					</div>
-				</a>
-				<img src="<?php echo get_template_directory_uri() ?>/img/portfolio/medhouse.jpg" alt="..." />
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12">
-				<a href="http://ok-karpatu.com" target="_blank">
-					<div class="project_overlay">
-						<div class="project_overlay-text">
-							<h3>Карпати</h3>
-							<hr>
-							<i>Оздоровчий комплекс</i>
-						</div>
-					</div>
-				</a>
-				<img src="<?php echo get_template_directory_uri() ?>/img/portfolio/karpaty.jpg" alt="..." />
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12">
-				<a href="http://tirastec.com" target="_blank">
-					<div class="project_overlay">
-						<div class="project_overlay-text">
-							<h3>Tiras Tec</h3>
-							<hr>
-							<i>Компанія по веб-розробці</i>
-						</div>
-					</div>
-				</a>
-				<img src="<?php echo get_template_directory_uri() ?>/img/portfolio/tirastec.jpg" alt="..." />
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12">
-				<a href="http://home-king.com.ua" target="_blank">
-					<div class="project_overlay">
-						<div class="project_overlay-text">
-							<h3>Home King</h3>
-							<hr>
-							<i>Інтернет магазин</i>
-						</div>
-					</div>
-				</a>
-				<img src="<?php echo get_template_directory_uri() ?>/img/portfolio/home-king.jpg" alt="..." />
-			</div>
-		</div>
-		<div class="col-lg-3 col-md-6 col-sm-12">
-			<a href="http://kulmed.com.ua" target="_blank">
-				<div class="project_overlay">
-					<div class="project_overlay-text">
-						<h3>Kulyk Medicine</h3>
-						<hr>
-						<i>Стоматологія</i>
-					</div>
-				</div>
-			</a>
-			<img src="<?php echo get_template_directory_uri() ?>/img/portfolio/kulyk.jpg" alt="..." />
-		</div>
-		</div>
+<!--		<div class="row margin-top">-->
+<!--			<div class="col-lg-3 col-md-6 col-sm-12">-->
+<!--				<a href="http://medhouse-mc.com" target="_blank">-->
+<!--					<div class="project_overlay">-->
+<!--						<div class="project_overlay-text">-->
+<!--							<h3>Medhouse</h3>-->
+<!--							<hr>-->
+<!--							<i>приватна клініка</i>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</a>-->
+<!--				<img src="--><?php //echo get_template_directory_uri() ?><!--/img/portfolio/medhouse.jpg" alt="..." />-->
+<!--			</div>-->
+<!--			<div class="col-lg-3 col-md-6 col-sm-12">-->
+<!--				<a href="http://ok-karpatu.com" target="_blank">-->
+<!--					<div class="project_overlay">-->
+<!--						<div class="project_overlay-text">-->
+<!--							<h3>Карпати</h3>-->
+<!--							<hr>-->
+<!--							<i>Оздоровчий комплекс</i>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</a>-->
+<!--				<img src="--><?php //echo get_template_directory_uri() ?><!--/img/portfolio/karpaty.jpg" alt="..." />-->
+<!--			</div>-->
+<!--			<div class="col-lg-3 col-md-6 col-sm-12">-->
+<!--				<a href="http://tirastec.com" target="_blank">-->
+<!--					<div class="project_overlay">-->
+<!--						<div class="project_overlay-text">-->
+<!--							<h3>Tiras Tec</h3>-->
+<!--							<hr>-->
+<!--							<i>Компанія по веб-розробці</i>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</a>-->
+<!--				<img src="--><?php //echo get_template_directory_uri() ?><!--/img/portfolio/tirastec.jpg" alt="..." />-->
+<!--			</div>-->
+<!--			<div class="col-lg-3 col-md-6 col-sm-12">-->
+<!--				<a href="http://home-king.com.ua" target="_blank">-->
+<!--					<div class="project_overlay">-->
+<!--						<div class="project_overlay-text">-->
+<!--							<h3>Home King</h3>-->
+<!--							<hr>-->
+<!--							<i>Інтернет магазин</i>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</a>-->
+<!--				<img src="--><?php //echo get_template_directory_uri() ?><!--/img/portfolio/home-king.jpg" alt="..." />-->
+<!--			</div>-->
+<!--		</div>-->
+<!--		<div class="col-lg-3 col-md-6 col-sm-12">-->
+<!--			<a href="http://kulmed.com.ua" target="_blank">-->
+<!--				<div class="project_overlay">-->
+<!--					<div class="project_overlay-text">-->
+<!--						<h3>Kulyk Medicine</h3>-->
+<!--						<hr>-->
+<!--						<i>Стоматологія</i>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</a>-->
+<!--			<img src="--><?php //echo get_template_directory_uri() ?><!--/img/portfolio/kulyk.jpg" alt="..." />-->
+<!--		</div>-->
+<!--		</div>-->
 	</section>
 
 

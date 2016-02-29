@@ -31,12 +31,6 @@
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php endif; ?>
     <!-- ============== Resources style ============== -->
-    <style>
-        @font-face {
-            font-family: D3Euronism; /* Гарнитура шрифта */
-            src: url(fonts/D3Euronism_i.ttf); /* Путь к файлу со шрифтом */
-        }
-    </style>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,600,700|PT+Sans:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <?php wp_head(); ?>
@@ -80,7 +74,7 @@
             </li>
 
             <li class="newsletter-color">
-                <a class="open-newsletter">
+                <a class="open-newsletter" href="http://www.awd-development.com/news">
                     <i class="icon ion-ios-bell-outline"></i>
                     Новини
                 </a>
