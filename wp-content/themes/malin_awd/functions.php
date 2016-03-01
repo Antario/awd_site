@@ -51,3 +51,7 @@ function custom_script() {
 }
 add_action( 'wp_enqueue_scripts', 'custom_script' );
 ?>
+<?php
+//Відключення відображення адмін панелі
+    show_admin_bar (false);
+?>
