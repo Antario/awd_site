@@ -4,12 +4,14 @@
 */
 ?>
 <?php get_header(); ?>
+<!--Блок з ефектом павутинки-->
 	<section id="home-part" class="scale-max">
 		<div class="overlay">
 			<canvas id="constellation"></canvas>
 		</div>
 	</section>
 	<section id="content-part">
+    <!--Блок з контактною інформацією-->
 		<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.8173930059093!2d24.750378714929386!3d48.93791980305886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c18615b732f5%3A0xd941d6c37f024e53!2z0LLRg9C7LiDQktCw0YHQuNC70Y8g0KHQuNC80L7QvdC10L3QutCwLCAzMSwg0IbQstCw0L3Qvi3QpNGA0LDQvdC60ZbQstGB0YzQuiwg0IbQstCw0L3Qvi3QpNGA0LDQvdC60ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3NjQ5MQ!5e0!3m2!1suk!2sua!4v1453559275118" width="807" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
 		<div class="inner-content" id="contact-content">
@@ -55,12 +57,11 @@
 					</div>
 
 				</div>
-
+            <!--Кінець блоку з контактною інформацією-->
+            <!--Контактна форма-->
 				<div class="col-xs-12 col-sm-12 col-lg-8">
 
-					<!-- Contact form -->
 					<form id="contact-form" name="contact-form" method="POST" data-name="Contact Form">
-
 						<div class="row">
 
 							<!-- Full name -->
@@ -97,7 +98,7 @@
 						<button type="submit" id="valid-form" class="btn btn-color">Відправити повідомлення</button>
 
 					</form>
-					<!-- /. Contact form -->
+					<!--Кінець контактної форми-->
 
 					<div id="block-answer">
 						<div id="answer"></div>

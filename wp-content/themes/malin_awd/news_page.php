@@ -30,8 +30,6 @@
                                 <div class="entry">
                                     <?php the_content(); ?>
                                 </div>
-                            <!--Відображення списку рубрик записів, розділених комою-->
-                                <p class="postmetadata">Опубліковано в <?php the_category(', '); ?></p>
                         <!--закриття першого блоку div-->
                             </div>
                             </div>
