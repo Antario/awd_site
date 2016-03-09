@@ -8,6 +8,7 @@
 * @since malin_awd 1.0
 */
 ?>
+<!--Підключення картинок на фон, скрипт vegas.js-->
 <script>
 	var vegasImage = [
                 { src: '<?php echo get_template_directory_uri(); ?>/img/4.png' },
@@ -22,7 +23,7 @@
 <!--</p>-->
 
 <!-- Copyright -->
-<p class="copyright">©AWD Development 2016</p>
+<p class="copyright">©AWD Development 2015</p>
 <?php wp_footer(); ?>
 </body>
 </html>

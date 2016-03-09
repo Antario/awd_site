@@ -12,34 +12,38 @@
 <section id="project">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-lg-12">
-        <!--Початок циклу-->
-            <?php if (have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                    <!--Далі перевіряється, чи знаходиться даний запис в рубриці uncategorized.
-                        Якщо так, то блоку div, будет присвоєно кдас "post-cat-three".
-                        Інакше, блоку div будет присвоено класс "post".-->
-                        <?php if ( in_category('uncategorized') ) { ?>
-                            <div class="post-cat-three">
-                        <?php } else { ?>
-                            <div class="post">
-                        <?php } ?>
-                            <!--Відображення заголовку як постійну ссилку на запис-->
-                                <h2><a href="<?php the_permalink(); ?>"><?php the_title ?></a></h2>
-                            <!--Відображення часу-->
-                                <small><?php the_time('F jS, Y') ?></small>
-                            <!--Відображення вмісту запису всередині div-->
-                                <div class="entry">
-                                    <?php the_content(); ?>
-                                </div>
-                        <!--закриття першого блоку div-->
-                            </div>
-                            </div>
-            <!--Зупинка циклу (але є ключове слово "else:")-->
-                <?php endwhile; else: ?>
-            <!--В першому "if" перевіряється чи існують якісь записи для виводу
-                Ця частина "else" говорить що робити, якщо записів не знайшлося-->
-                <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-        <!--Остаточне завершення циклу-->
-            <?php endif; ?>
+    <article class="news_background">
+        <?php
+        $temp = $wp_query; $wp_query= null;
+        $wp_query = new WP_Query(); $wp_query->query('showposts=10' . '&paged='.$paged);
+        while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+
+        <h3><a href="<?php the_permalink(); ?>" title="Читати дальше"><?php the_title(); ?></a></h3>
+        <a href="<?php the_permalink() ?>"><?php the_post_thumbnail('small') ?></a>
+        <?php the_excerpt(); ?>
+
+        <?php endwhile; ?>
+
+        <?php if ($paged > 1) { ?>
+
+        <nav id="nav-posts">
+            <div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
+            <div class="next"><?php previous_posts_link('Newer Posts &raquo;'); ?></div>
+        </nav>
+
+        <?php } else { ?>
+
+        <nav id="nav-posts">
+            <div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
+        </nav>
+
+        <?php } ?>
+
+        <?php wp_reset_postdata(); ?>
+
+    </article>
+
+<?php get_footer(); ?>
         </div>
     </div>
 </section>

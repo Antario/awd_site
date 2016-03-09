@@ -18,6 +18,7 @@
         Annex. Mozaic Variant
         '''''. Constellation Variant
     7. Media Queries
+    8. News page
 */
 /* ------------------------------------- */
 /* *. @Import & Reset .................. */
@@ -26,6 +27,7 @@
 /* custom CSS files */
 @import url(css/font-awesome.min.css);
 @import url(css/ionicons.min.css);
+@import url(css/news.css);
 @import url(css/bootstrap.min.css);
 @import url(css/animate.css);
 @import url(css/swipebox.css);
@@ -2226,4 +2228,12 @@ p.lang a.active {
   #answer {
     min-height: 40px;
   }
+}
+/*News page*/
+.news_background{
+    background: #000; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    opacity: 0.7; /* Полупрозрачный фон */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+    color: #fff; /* Цвет текста */
 }
