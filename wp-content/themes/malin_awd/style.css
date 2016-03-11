@@ -27,7 +27,6 @@
 /* custom CSS files */
 @import url(css/font-awesome.min.css);
 @import url(css/ionicons.min.css);
-@import url(css/news.css);
 @import url(css/bootstrap.min.css);
 @import url(css/animate.css);
 @import url(css/swipebox.css);
@@ -2230,10 +2229,28 @@ p.lang a.active {
   }
 }
 /*News page*/
+.row_news {
+    margin-right: 0;
+}
+#project_news {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 8.5%;
+    padding-bottom: 0px;
+}
 .news_background{
     background: #000; /* Цвет фона */
     padding: 5px; /* Поля вокруг текста */
     opacity: 0.7; /* Полупрозрачный фон */
     filter: alpha(Opacity=70); /* Прозрачность в IE */
     color: #fff; /* Цвет текста */
+}
+.img_post{
+    display: block;
+    width: 20%;
+}
+.post_excert{
+    display: block;
+    width: 85%;
+    float: right;
 }

@@ -9,8 +9,8 @@
 		<canvas id="constellation"></canvas>
 	</div>
 </section>
-<section id="project">
-    <div class="row">
+<section id="project_news">
+    <div class="row_news">
         <div class="col-xs-12 col-sm-12 col-lg-12">
     <article class="news_background">
         <?php
@@ -18,9 +18,10 @@
         $wp_query = new WP_Query(); $wp_query->query('showposts=10' . '&paged='.$paged);
         while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
+
         <h3><a href="<?php the_permalink(); ?>" title="Читати дальше"><?php the_title(); ?></a></h3>
-        <a href="<?php the_permalink() ?>"><?php the_post_thumbnail('small') ?></a>
-        <?php the_excerpt(); ?>
+        <p class="post_excert"><?php main_excerpt(); ?></p>
+        <a class="img_post" href="<?php the_permalink() ?>" title="Читати дальше"><?php echo get_the_post_thumbnail($page->ID, 'thumbnail'); ?></a><hr/>
 
         <?php endwhile; ?>
 
