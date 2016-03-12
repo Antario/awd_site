@@ -19,7 +19,7 @@ function custom_script() {
 
     wp_register_script( 'modernizr', $jsPath.'modernizr.js', false, false, false);
     wp_enqueue_script( 'modernizr' );
-    wp_register_script('jquery_min', 'https://cdn.jsdelivr.net/jquery/1.11.1/jquery.js', false, false, false);
+    wp_register_script('jquery_min', $jsPath.'jquery.min.js', false, false, false);
     wp_enqueue_script('jquery_min');
     wp_register_script('jquery_easings_min', $jsPath.'jquery.easings.min.js', false, false, false);
     wp_enqueue_script('jquery_easings_min');

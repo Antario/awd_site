@@ -2254,3 +2254,11 @@ p.lang a.active {
     width: 85%;
     float: right;
 }
+.entry-meta{
+    display: block;
+    text-align: center;
+}
+.entry-header{
+    float: right;
+    margin-right: 15%;
+}
