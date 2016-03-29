@@ -36,6 +36,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class() ?>>
+   <?php include_once("analyticstracking.php") ?>
     <button class="open-menu-mobile">
         <i class="icon ion-navicon-round opening-menu"></i>
         <i class="icon ion-close-round closing-menu display-none"></i>
